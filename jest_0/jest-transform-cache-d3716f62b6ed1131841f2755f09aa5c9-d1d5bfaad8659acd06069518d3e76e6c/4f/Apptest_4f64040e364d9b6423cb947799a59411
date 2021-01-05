@@ -1,0 +1,24 @@
+c21e1a025ba9ceb010279884a03de1bb
+"use strict";
+
+var _interopRequireDefault = require("/home/administrator/Desktop/node js/frontend/node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/interopRequireDefault");
+
+var _jsxDevRuntime = require("react/jsx-dev-runtime");
+
+var _react = require("@testing-library/react");
+
+var _App = _interopRequireDefault(require("./App"));
+
+var _jsxFileName = "/home/administrator/Desktop/node js/frontend/src/App.test.js";
+test('renders learn react link', () => {
+  (0, _react.render)( /*#__PURE__*/(0, _jsxDevRuntime.jsxDEV)(_App.default, {}, void 0, false, {
+    fileName: _jsxFileName,
+    lineNumber: 5,
+    columnNumber: 10
+  }, void 0));
+
+  const linkElement = _react.screen.getByText(/learn react/i);
+
+  expect(linkElement).toBeInTheDocument();
+});
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkFwcC50ZXN0LmpzIl0sIm5hbWVzIjpbInRlc3QiLCJsaW5rRWxlbWVudCIsInNjcmVlbiIsImdldEJ5VGV4dCIsImV4cGVjdCIsInRvQmVJblRoZURvY3VtZW50Il0sIm1hcHBpbmdzIjoiOzs7Ozs7QUFBQTs7QUFDQTs7O0FBRUFBLElBQUksQ0FBQywwQkFBRCxFQUE2QixNQUFNO0FBQ3JDLG1DQUFPLDJCQUFDLFlBQUQ7QUFBQTtBQUFBO0FBQUE7QUFBQSxZQUFQOztBQUNBLFFBQU1DLFdBQVcsR0FBR0MsY0FBT0MsU0FBUCxDQUFpQixjQUFqQixDQUFwQjs7QUFDQUMsRUFBQUEsTUFBTSxDQUFDSCxXQUFELENBQU4sQ0FBb0JJLGlCQUFwQjtBQUNELENBSkcsQ0FBSiIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCB7IHJlbmRlciwgc2NyZWVuIH0gZnJvbSAnQHRlc3RpbmctbGlicmFyeS9yZWFjdCc7XG5pbXBvcnQgQXBwIGZyb20gJy4vQXBwJztcblxudGVzdCgncmVuZGVycyBsZWFybiByZWFjdCBsaW5rJywgKCkgPT4ge1xuICByZW5kZXIoPEFwcCAvPik7XG4gIGNvbnN0IGxpbmtFbGVtZW50ID0gc2NyZWVuLmdldEJ5VGV4dCgvbGVhcm4gcmVhY3QvaSk7XG4gIGV4cGVjdChsaW5rRWxlbWVudCkudG9CZUluVGhlRG9jdW1lbnQoKTtcbn0pO1xuIl19
